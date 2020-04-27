@@ -1,10 +1,12 @@
 {
   "routes": [
     {
-      "route": "/map"
+      "route": "/map",
+      "content": "<h1>Title Map</h1><br><p>Map body</p>"
     },
     {
-      "route": "/not-found"
+      "route": "/not-found",
+      "content": "<h1>Not found</h1><br><p>Map body not found</p>"
     }
   ]
 }
